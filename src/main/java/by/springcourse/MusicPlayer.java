@@ -4,11 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 import java.util.Random;
 
 import static by.springcourse.GenreOfMusic.CLASSICAL;
-import static by.springcourse.GenreOfMusic.POP;
 
 @Component
 public class MusicPlayer {
